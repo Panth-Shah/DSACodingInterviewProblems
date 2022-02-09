@@ -8,19 +8,19 @@ namespace TopGoogleQuestions
 {
     public class SnapShotArray
     {
-        private readonly List<SnapShotType> snapShotCollection = null;
-        private readonly List<int> setValueList = null;
+        private readonly SnapShotType[] snapShotCollection = null;
+        private readonly int[] setValueList = null;
+        private int snap_id = 0;
         public SnapShotArray(int length)
         {
-            this.snapShotCollection = new List<SnapShotType>(length);
-            this.snapShotCollection.Add(new SnapShotType());
-            this.setValueList = new List<int>();
-            List<string> L = new List<string>(new string[10]);
+            this.snapShotCollection = new SnapShotType[length+1];
+            this.snapShotCollection[0] = new SnapShotType();
+            this.setValueList = new int[length];
         }
 
         public void Set(int index, int val)
         {
-            //this.setValueList.Add();
+
         }
     }
     public class SnapShotType

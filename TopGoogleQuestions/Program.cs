@@ -10,7 +10,9 @@ namespace TopGoogleQuestions
     {
         static void Main(string[] args)
         {
-            SnapShotArray snap = new SnapShotArray(4);
+            //SnapShotArray snap = new SnapShotArray(4);
+            MaxNumberOfPointsWithCost maxCostDP = new MaxNumberOfPointsWithCost();
+            maxCostDP.MaxPoints(new int[][] { new int[] { 1, 2, 3}, new int[] { 1, 5, 1}, new int[] { 3, 1, 1}  });
         }
     }
 }
