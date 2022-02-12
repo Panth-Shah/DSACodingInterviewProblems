@@ -13,8 +13,11 @@ namespace GraphTheoryProblems
             //AllPathsFromSourceToTarget allPathList = new AllPathsFromSourceToTarget();
             //allPathList.AllPathsSourceTarget(input);
 
-            AllPathsFromSourceToDest sourceDest = new AllPathsFromSourceToDest();
-            sourceDest.LeadsToDestination(4, input, 0, 3);
+            //AllPathsFromSourceToDest sourceDest = new AllPathsFromSourceToDest();
+            //sourceDest.LeadsToDestination(4, input, 0, 3);
+
+            NumberOfProvinces np = new NumberOfProvinces();
+            np.FindCircleNum(new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 1, 0 }, new int[] { 0, 0, 1 } });
         }
     }
 }
