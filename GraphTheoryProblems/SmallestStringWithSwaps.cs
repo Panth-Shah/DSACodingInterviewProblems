@@ -35,36 +35,37 @@ namespace GraphTheoryProblems
             byte[] stringAsciiBytesArray = Encoding.ASCII.GetBytes(s);
 
             //Initialize rootCharacterPrirityMap, which will hold priority queue against each root components after Union operation is performed on individual components
-            Dictionary<int, PriorityQueue<char, int>> rootCharacterPriorityMap = new Dictionary<int, PriorityQueue<char, int>>();
+            //Dictionary<int, PriorityQueue<char, int>> rootCharacterPriorityMap = new Dictionary<int, PriorityQueue<char, int>>();
 
-            UnionFind uniFi = new UnionFind(s.Length);
-            //Perform Union operation on all the pairs provided to find connected components to perform swag of characters
-            foreach (IList<int> pair in pairs)
-            {
-                uniFi.Union(pair[0], pair[1]);
-            }
+            //UnionFind uniFi = new UnionFind(s.Length);
+            ////Perform Union operation on all the pairs provided to find connected components to perform swag of characters
+            //foreach (IList<int> pair in pairs)
+            //{
+            //    uniFi.Union(pair[0], pair[1]);
+            //}
 
-            for (int i = 0; i < s.Length; i++)
-            {
-                //Find root element for current element
-                int root = uniFi.Find(i);
+            //for (int i = 0; i < s.Length; i++)
+            //{
+            //    //Find root element for current element
+            //    int root = uniFi.Find(i);
 
-                // Add the character to the priority queue labelled by the root
-                rootCharacterPriorityMap.TryAdd(root, new PriorityQueue<char, int>());
-                //Add each character against the root and sorted 
-                rootCharacterPriorityMap[root].Enqueue(s[i], stringAsciiBytesArray[i]);
-            }
+            //    // Add the character to the priority queue labelled by the root
+            //    rootCharacterPriorityMap.TryAdd(root, new PriorityQueue<char, int>());
+            //    //Add each character against the root and sorted 
+            //    rootCharacterPriorityMap[root].Enqueue(s[i], stringAsciiBytesArray[i]);
+            //}
 
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < s.Length; i++)
-            {
-                //Capture root for current node
-                int nodeRoot = uniFi.GetRoot(i);
-                //Dequeue character from the priority queue stored under root of current node
-                char stringCharacter = rootCharacterPriorityMap[nodeRoot].Dequeue();
-                sb.Append(stringCharacter);
-            }
-            return sb.ToString();
+            //StringBuilder sb = new StringBuilder();
+            //for (int i = 0; i < s.Length; i++)
+            //{
+            //    //Capture root for current node
+            //    int nodeRoot = uniFi.GetRoot(i);
+            //    //Dequeue character from the priority queue stored under root of current node
+            //    char stringCharacter = rootCharacterPriorityMap[nodeRoot].Dequeue();
+            //    sb.Append(stringCharacter);
+            //}
+            //return sb.ToString();
+            return null;
         }
     }
 }

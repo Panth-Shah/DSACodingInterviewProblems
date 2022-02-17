@@ -16,8 +16,11 @@ namespace GraphTheoryProblems
             //AllPathsFromSourceToDest sourceDest = new AllPathsFromSourceToDest();
             //sourceDest.LeadsToDestination(4, input, 0, 3);
 
-            NumberOfProvinces np = new NumberOfProvinces();
-            np.FindCircleNum(new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 1, 0 }, new int[] { 0, 0, 1 } });
+            //NumberOfProvinces np = new NumberOfProvinces();
+            //np.FindCircleNum(new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 1, 0 }, new int[] { 0, 0, 1 } });
+
+            BinaryTreeVerticalOrderTraversal btVerticalOrderTraversal = new BinaryTreeVerticalOrderTraversal();
+            btVerticalOrderTraversal.VerticalOrder(new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7))));
         }
     }
 }

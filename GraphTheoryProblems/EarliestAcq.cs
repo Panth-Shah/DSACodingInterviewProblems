@@ -11,7 +11,7 @@ namespace GraphTheoryProblems
     {
         public int EarliestAcqFind(int[][] logs, int n)
         {
-            var sortedLog = logs.OrderBy(x => x[0]);
+            var sortedLog = logs.OrderBy(x => x[0]).ToArray();
             //Initialize union find datastructure with n size
             UnionFind unifi = new UnionFind(n);
 

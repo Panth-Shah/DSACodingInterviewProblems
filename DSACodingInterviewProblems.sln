@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopGoogleQuestions", "TopGoogleQuestions\TopGoogleQuestions.csproj", "{2312749B-C2C3-4658-8E48-2303A28E7688}"
 EndProject
@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blind75", "Blind75\Blind75.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.DynamicProgramming", "..\LeetCode.DynamicProgramming\LeetCode.DynamicProgramming.csproj", "{BC727D51-D61C-4CF3-A430-BF5AACAC08DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.RandomQuestions", "Leetcode.RandomQuestions\Leetcode.RandomQuestions.csproj", "{5C1EB7EA-6752-4248-A1C7-8165AA9EF6E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.RandomQuestions", "Leetcode.RandomQuestions\Leetcode.RandomQuestions.csproj", "{5C1EB7EA-6752-4248-A1C7-8165AA9EF6E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Backtracking", "LeetCode.Backtracking\LeetCode.Backtracking.csproj", "{198E5389-7049-4EEF-9500-3D2C19831F6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.CodingPatterns", "LeetCode.CodingPatterns\LeetCode.CodingPatterns.csproj", "{1394A808-07CF-4E6D-AA12-8A230AC69A99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{5C1EB7EA-6752-4248-A1C7-8165AA9EF6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1EB7EA-6752-4248-A1C7-8165AA9EF6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1EB7EA-6752-4248-A1C7-8165AA9EF6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198E5389-7049-4EEF-9500-3D2C19831F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198E5389-7049-4EEF-9500-3D2C19831F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198E5389-7049-4EEF-9500-3D2C19831F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198E5389-7049-4EEF-9500-3D2C19831F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

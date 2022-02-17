@@ -44,11 +44,16 @@ namespace TopGoogleQuestions
                 }
                 else if (currentChar == ']')
                 {
+                    //Pop last entry from stringStack
                     StringBuilder decodedString = stringStack.Pop();
                     for (int currentK = countStack.Pop(); currentK > 0; currentK--)
                     {
+                        //Append current string with previously added string before current [
+                        //e.g. 2[ab3[sc]], here currentString is sc and decodeString is ab
+                        //currentString will be appended to decodeString for 3 times
                         decodedString.Append(currentString);
                     }
+                    //As we move from inward to outward, assign currentString as decodedString so that can be appended to previously added string
                     currentString = decodedString;
                 }
                 else
