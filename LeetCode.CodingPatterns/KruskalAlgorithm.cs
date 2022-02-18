@@ -9,6 +9,13 @@ namespace LeetCode.CodingPatterns
     #region Kruskal Algorithm Implementation
     public class KruskalAlgorithm
     {
+        //Time Complexity: O(ElogE)
+            //Build Priority Queue takes ElogE
+            //Initialize Union Find O(size)
+            //Find Operation: O(InverseAckermannFunction(N))
+            //Union Operation: O(InverseAckermannFunction(N))
+            //N = Number of Vertices in graph
+        //Space Complexity: O(E)
         public int MinCostConnectPoints(int[][] points)
         {
             if (points == null || points.Length == 0)
