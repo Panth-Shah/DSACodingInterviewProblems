@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Backtracking", "Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.CodingPatterns", "LeetCode.CodingPatterns\LeetCode.CodingPatterns.csproj", "{1394A808-07CF-4E6D-AA12-8A230AC69A99}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeCard.Trie", "LeetCodeCard.Trie\LeetCodeCard.Trie.csproj", "{ADED9C59-0A76-49FB-9E7D-B9148C127F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.BinaryTree", "LeetCode.BinaryTree\LeetCode.BinaryTree.csproj", "{1E29614F-1A0D-4657-971A-8CDC633D8BF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1394A808-07CF-4E6D-AA12-8A230AC69A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADED9C59-0A76-49FB-9E7D-B9148C127F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADED9C59-0A76-49FB-9E7D-B9148C127F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADED9C59-0A76-49FB-9E7D-B9148C127F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADED9C59-0A76-49FB-9E7D-B9148C127F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E29614F-1A0D-4657-971A-8CDC633D8BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E29614F-1A0D-4657-971A-8CDC633D8BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E29614F-1A0D-4657-971A-8CDC633D8BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E29614F-1A0D-4657-971A-8CDC633D8BF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,8 @@ namespace LeetCode.CodingPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DijkstraAlgorithm djAlgo = new DijkstraAlgorithm();
+            djAlgo.NetworkDelayTime(new int[][] { new int[] { 1, 2, 1 } }, 2, 2);
         }
     }
 }

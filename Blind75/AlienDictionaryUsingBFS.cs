@@ -10,7 +10,7 @@ namespace Blind75
     {
         public string AlienOrder(string[] words)
         {
-            //Solution using Kahn's algorithm using BFS
+            //Solution using Kahn"s algorithm using BFS
 
             //Step 0: Initialize DS and find all unique letters
             Dictionary<char, List<char>> graph = new Dictionary<char, List<char>>();
@@ -79,7 +79,7 @@ namespace Blind75
                 {
                     //Reduce indegree count for adjacent node by 1 before pushing into queue
                     letterIndegreeMap[adjacentChar] -= 1;
-                    //If Adjacent node's indegree = 0, push to queue
+                    //If Adjacent node"s indegree = 0, push to queue
                     if (letterIndegreeMap[adjacentChar] == 0)
                     {
                         q.Enqueue(adjacentChar);

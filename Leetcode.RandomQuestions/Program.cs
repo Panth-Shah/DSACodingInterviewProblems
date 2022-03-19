@@ -6,8 +6,11 @@ namespace Leetcode.RandomQuestions
     {
         static void Main(string[] args)
         {
-            ValidPalindrome isPalindrome = new ValidPalindrome();
-            var res = isPalindrome.ValidPalindromeSolution("ababccbabaa");
+            //ValidPalindrome isPalindrome = new ValidPalindrome();
+            //var res = isPalindrome.ValidPalindromeSolution("ababccbabaa");
+
+            StringWithRepeatLimit stringWithRepeat = new StringWithRepeatLimit();
+            stringWithRepeat.RepeatLimitedString("cczazcc" , 3);
         }
     }
 }

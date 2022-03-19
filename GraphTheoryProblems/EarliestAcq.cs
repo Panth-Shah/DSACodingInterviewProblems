@@ -15,7 +15,7 @@ namespace GraphTheoryProblems
             //Initialize union find datastructure with n size
             UnionFind unifi = new UnionFind(n);
 
-            //Iterate through each node of log and perform union operation for each node with it's neighbouring node
+            //Iterate through each node of log and perform union operation for each node with it"s neighbouring node
             //Keep performing this operation until GetCount = 1
             foreach (int[] edge in sortedLog)
             {

@@ -23,8 +23,29 @@ namespace TopGoogleQuestions
             //NumberOfMatchingSubsequences numberMatchingSub = new NumberOfMatchingSubsequences();
             //numberMatchingSub.NumMatchingSubseqModified("abcde", new string[] { "a", "bb", "acd", "ace" });
 
-            NonOverlappingIntervals interval = new NonOverlappingIntervals();
-            var ans = interval.EraseOverlapIntervals(new int[][] { new int[] { 1, 11}, new int[] { 2, 22 }, new int[] { 11, 22 }, new int[] { 1, 100 } });
+            //NonOverlappingIntervals interval = new NonOverlappingIntervals();
+            //var ans = interval.EraseOverlapIntervals(new int[][] { new int[] { 1, 11}, new int[] { 2, 22 }, new int[] { 11, 22 }, new int[] { 1, 100 } });
+
+            //DailyTempratureMonoStack temp = new DailyTempratureMonoStack();
+            //temp.DailyTemperatures(new int[] {73, 74, 75, 71, 69, 72, 76, 73});
+
+            //BasicCalculator3 bc3 = new BasicCalculator3();
+            //bc3.Calculate("1+1");
+
+            //SwapAdjacentInLRString swapAdj = new SwapAdjacentInLRString();
+            //swapAdj.CanTransform("RXXLRXRXL", "XRLXXRRLX");
+
+            //SmallestDivisor smallestDiv = new SmallestDivisor();
+            //smallestDiv.SmallestDivisorValue(new int[] {21212, 10101, 12121}, 1000000);
+
+            //SentenceScreenFitting sentenceScreenFitting = new SentenceScreenFitting();
+            //sentenceScreenFitting.wordsTyping(new string[] { "a", "bcd", "e"}, 3, 6);
+
+            //BullsAndCow bc = new BullsAndCow();
+            //bc.GetHint("011", "110");
+
+            WordInCrossword wordCrossWord = new WordInCrossword();
+            wordCrossWord.PlaceWordInCrossword(new char[][] { new char[] { '#', ' ', '#' }, new char[] { ' ', ' ', '#' }, new char[] { '#', ' ', 'c'} }, "ca");
         }
     }
 }
